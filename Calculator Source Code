@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+int main(void) {
+    char ope;
+    float key1, key2;
+
+{
+    cout << "Enter the first Number" <<endl;
+    cin >> key1;
+    
+    cout << "Enter the second Number" <<endl;
+    cin >> key2;
+    
+    
+     cout << "Enter the Operation" <<endl;
+    cin >> ope;
+
+}    
+
+    switch(ope) {
+        case '+':
+            cout << key1 << " + " << key2 << " = " << key1 + key2;
+            break;
+
+        case '-':
+            cout << key1 << " - " << key2 << " = " << key1 - key2;
+            break;
+
+        case '*':
+            cout << key1 << " * " << key2 << " = " << key1 * key2;
+            break;
+
+        case '/':
+            cout << key1 << " / " << key2 << " = " << (float) key1 / key2;
+            break;
+
+        
+        default:
+            cout << "Invalid Operations";
+            break;
+    }
+
+    return 0;
+}
+
+// end
+
+// Pastebin Link 
+/* 
+
+https://pastebin.com/5pVne1eX
+
+
+*/
